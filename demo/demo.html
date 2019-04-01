@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body>
+        <button id="butclk">Click</button>
+        <script>
+         
+    var promise =  new Promise(function(resolve,reject){
+        if(true){
+            resolve("I am Resolved");
+        }else{
+            reject("it's over");
+        }
+    })
+
+    promise.then(result=>{
+        console.log(result);
+    }).catch(err=>{
+        console.log(err);
+    });
+            </script>
+    </body>
+</html>

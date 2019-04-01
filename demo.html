@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body>
+        <button id="butclk">Click here</button>
+       
+        <input type="text" id="txtone"/>
+        <script>
+            var x= document.getElementById('butclk');
+            var y= document.getElementById('txtone');
+           
+            x.addEventListener("click",function(){
+                console.log(this);
+            })
+                y.addEventListener("change",function(){
+                    console.log(this);
+                })
+            
+            </script>
+    </body>
+</html>
